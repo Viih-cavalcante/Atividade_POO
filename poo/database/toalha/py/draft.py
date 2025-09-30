@@ -18,17 +18,21 @@ class Towel:
         if self.size == "G":
             return 30
         return 0
+   
     def wringOut(self) -> None:
-     self.wetness = 0
+         self.wetness = 0
 
     def isDry(self) -> bool:
-     return self.wetness == 0
-    
+        return self.wetness == 0
+
     def show(self) -> None:
-        print(self)
+         print(self)
     
     def __str__(self) -> str:
-        return f"{self.color} {self.size} {self.wetness}"
+         return f"{self.color}{self.size}{self.wetness}"
+    
+         
+    #
     
     #testando
     
