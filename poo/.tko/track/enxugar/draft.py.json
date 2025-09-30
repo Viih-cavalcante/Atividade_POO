@@ -2,8 +2,13 @@
     "patches": [
         {
             "label": "2025-09-22_17-15-39",
-            "content": "",
+            "content": "@@ -1,570 +0,0 @@\n-class towel: %0A    def __ini__(self, color :str, size :str) :%0A        self.color = color%0A        self.size = size%0A        self.Wetness :int = 0 %0A    %0A    def getMaxWetness(self) -%3Eint :%0A        if self.size == %22P%22 :%0A            return 10%0A        if self.size == %22M%22 :%0A            return 20%0A        if self.size == %22G%22 :%0A            return 30 %0A        return 0%0A    %0A    def dry(self, amount :int) -%3E None:%0A        self.Wetness += amount%0A        if self.Wetness %3E self.getMaxWetness() :%0A            print(%22toalha enxarcada%22)%0A            self.wetness = self.getMaxWetness%0A%0A%0A\n",
             "lines": "0"
+        },
+        {
+            "label": "2025-09-30_02-59-45",
+            "content": "class towel: \n    def __ini__(self, color :str, size :str) :\n        self.color = color\n        self.size = size\n        self.Wetness :int = 0 \n    \n    def getMaxWetness(self) ->int :\n        if self.size == \"P\" :\n            return 10\n        if self.size == \"M\" :\n            return 20\n        if self.size == \"G\" :\n            return 30 \n        return 0\n    \n    def dry(self, amount :int) -> None:\n        self.Wetness += amount\n        if self.Wetness > self.getMaxWetness() :\n            print(\"toalha enxarcada\")\n            self.wetness = self.getMaxWetness\n\n\n",
+            "lines": "22"
         }
     ]
 }
