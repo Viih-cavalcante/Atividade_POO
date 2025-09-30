@@ -7,8 +7,13 @@
         },
         {
             "label": "2025-09-22_17-13-08",
-            "content": "class Tower:\n    def __init__(self, color: str, size: str):\n            self.color: str = \"color\"\n            self.size: str = \"size\"\n            self.wetness: int = 0\n\n    def dry(self, amount: int) -> None:\n        self.wetness += amount\n        if self.wetness > self.getMaxWetness():\n            print(\"Toalha enxarcada\")\n            self.wetness = self.getMaxWetness() \n\n    def getMaxWetness(self) -> int:\n        if self.size == \"p\":\n            return 10\n        if self.size == \"M\":\n            return 20\n        if self.size == \"G\":\n            return 30\n        return 0\n    def wringOut(self) -> None:\n     self.wetness = 0\n\n    def isDry(self) -> bool:\n     return self.wetness == 0\n    \n    def show(self) -> None:\n        print(self)\n    \n    def __srt__(self) -> str:\n        return f\"{self.color} {self.size} {self.wetness}\"\n    ",
+            "content": "@@ -3,17 +3,17 @@\n ass Towe\n-l\n+r\n :%0A    de\n@@ -83,21 +83,23 @@\n : str = \n+%22\n color\n+%22\n %0A       \n@@ -120,20 +120,22 @@\n : str = \n+%22\n size\n+%22\n %0A       \n@@ -758,18 +758,18 @@\n  def __s\n-t\n r\n+t\n __(self)\n@@ -843,23 +843,4 @@\n     \n-%0A    #testando%0A    \n",
             "lines": "32"
+        },
+        {
+            "label": "2025-09-29_16-39-30",
+            "content": "class Towel:\n    def __init__(self, color: str, size: str):\n            self.color: str = color\n            self.size: str = size\n            self.wetness: int = 0\n\n    def dry(self, amount: int) -> None:\n        self.wetness += amount\n        if self.wetness > self.getMaxWetness():\n            print(\"Toalha enxarcada\")\n            self.wetness = self.getMaxWetness() \n\n    def getMaxWetness(self) -> int:\n        if self.size == \"p\":\n            return 10\n        if self.size == \"M\":\n            return 20\n        if self.size == \"G\":\n            return 30\n        return 0\n    def wringOut(self) -> None:\n     self.wetness = 0\n\n    def isDry(self) -> bool:\n     return self.wetness == 0\n    \n    def show(self) -> None:\n        print(self)\n    \n    def __str__(self) -> str:\n        return f\"{self.color} {self.size} {self.wetness}\"\n    \n    #testando\n    ",
+            "lines": "34"
         }
     ]
 }

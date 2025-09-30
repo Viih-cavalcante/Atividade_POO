@@ -31,6 +31,4 @@ class Towel:
         return f"{self.color} {self.size} {self.wetness}"
     
     #testando
-
-    
     
