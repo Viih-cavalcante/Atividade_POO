@@ -22,8 +22,18 @@
         },
         {
             "label": "2025-09-30_14-31-21",
-            "content": "class Towel:\n    def __init__(self, color :str, size :str):\n        self.color = color\n        self.size = size\n        self.Wetness :int = 0\n    \n    def getMaxWetness(self) -> int:\n        if self.size == \"P\":\n            return 10\n        if self.size == \"M\":\n            return 20\n        if self.size == \"G\":\n            return 30\n        return 0\n    \n    def dry(self, amount :int) -> None:\n     self.Wetness += amount\n     if self.Wetness > self.getMaxWetness():\n        print(\"toalha enxarcada\")\n        self.Wetness = self.getMaxWetness()\n    \n    def wringOut(self) -> None :\n        self.wetness = 0\n\n    def isDry(self) -> bool :\n        return self.wetness == 0\n    \n    def show(self) -> None:\n        print (self)\n\n    def __str__(self) -> str :\n        return f\"{self.color} {self.size} {self.Wetness}\"\n    \n\n# teste\ntowel = Towel (\"blue\", \"P\")\ntowelWoman = Towel (\"pink\",\"M\")\nTowelMan = Towel (\"blue!\",\"G\")\n\n\n\n",
+            "content": "@@ -301,16 +301,17 @@\n .size ==\n+ \n %22G%22:%0A   \n@@ -388,35 +388,32 @@\n ) -%3E None:%0A     \n-   \n self.Wetness += \n@@ -419,19 +419,16 @@\n  amount%0A\n-   \n      if \n@@ -468,28 +468,24 @@\n ():%0A        \n-  \n-  \n print(%22toalh\n@@ -542,16 +542,20 @@\n tness()%0A\n+    \n %0A    def\n@@ -573,24 +573,25 @@\n elf) -%3E None\n+ \n :%0A        se\n@@ -585,33 +585,33 @@\n  :%0A        self.\n-W\n+w\n etness = 0%0A%0A    \n@@ -633,18 +633,20 @@\n  -%3E bool\n+ \n :%0A\n+ \n        r\n@@ -652,25 +652,25 @@\n return self.\n-W\n+w\n etness == 0%0A\n@@ -692,33 +692,32 @@\n ow(self) -%3E None\n- \n :%0A        print(\n@@ -715,16 +715,17 @@\n    print\n+ \n (self)%0A%0A\n@@ -752,16 +752,17 @@\n ) -%3E str\n+ \n :%0A      \n@@ -784,16 +784,17 @@\n f.color%7D\n+ \n %7Bself.si\n@@ -796,16 +796,17 @@\n lf.size%7D\n+ \n %7Bself.We\n@@ -813,16 +813,116 @@\n tness%7D%22%0A\n-%0A\n     \n+%0A%0A# teste%0Atowel = Towel (%22blue%22, %22P%22)%0AtowelWoman = Towel (%22pink%22,%22M%22)%0ATowelMan = Towel (%22blue!%22,%22G%22)%0A\n %0A%0A%0A\n",
             "lines": "41"
+        },
+        {
+            "label": "2025-09-30_16-27-34",
+            "content": "@@ -821,37 +821,7 @@\n     \n-#testes%0A    towelMinha = Towel\n %0A%0A%0A\n",
+            "lines": "36"
+        },
+        {
+            "label": "2025-09-30_16-38-15",
+            "content": "class Towel:\n    def __init__(self, color :str, size :str):\n        self.color = color\n        self.size = size\n        self.Wetness :int = 0\n    \n    def getMaxWetness(self) -> int:\n        if self.size == \"P\":\n            return 10\n        if self.size == \"M\":\n            return 20\n        if self.size ==\"G\":\n            return 30\n        return 0\n    \n    def dry(self, amount :int) -> None:\n        self.Wetness += amount\n        if self.Wetness > self.getMaxWetness():\n            print(\"toalha enxarcada\")\n        self.Wetness = self.getMaxWetness()\n\n    def wringOut(self) -> None:\n        self.Wetness = 0\n\n    def isDry(self) -> bool:\n       return self.Wetness == 0\n    \n    def show(self) -> None :\n        print(self)\n\n    def __str__(self) -> str:\n        return f\"{self.color}{self.size}{self.Wetness}\"\n\n    #testes\n    towelMinha = Towel\n\n\n",
+            "lines": "37"
         }
     ]
 }
