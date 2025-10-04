@@ -33,9 +33,18 @@ class Towel:
     
          
     #testando
-   
-         minha = Towel("vermelha", "G")
-         minha.show()
+doguito = Towel("azul", "M")
+print(doguito)
+doguito.dry(15)
+print(doguito)
+doguito.dry(10)
+print(doguito)
 
+vitoria = Towel("rosa", "P")
+print(vitoria)
+vitoria.dry(5)
+print(vitoria)
+vitoria.dry(10)
+print(vitoria)
 
     
