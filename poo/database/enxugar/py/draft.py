@@ -49,3 +49,4 @@ def main() :
             toalha.dry(amount)
         else:
             print ("fail: comando invalido")
+main()
