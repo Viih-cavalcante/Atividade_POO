@@ -32,8 +32,28 @@
         },
         {
             "label": "2025-09-30_16-38-15",
-            "content": "class Towel:\n    def __init__(self, color :str, size :str):\n        self.color = color\n        self.size = size\n        self.Wetness :int = 0\n    \n    def getMaxWetness(self) -> int:\n        if self.size == \"P\":\n            return 10\n        if self.size == \"M\":\n            return 20\n        if self.size ==\"G\":\n            return 30\n        return 0\n    \n    def dry(self, amount :int) -> None:\n        self.Wetness += amount\n        if self.Wetness > self.getMaxWetness():\n            print(\"toalha enxarcada\")\n        self.Wetness = self.getMaxWetness()\n\n    def wringOut(self) -> None:\n        self.Wetness = 0\n\n    def isDry(self) -> bool:\n       return self.Wetness == 0\n    \n    def show(self) -> None :\n        print(self)\n\n    def __str__(self) -> str:\n        return f\"{self.color}{self.size}{self.Wetness}\"\n\n    #testes\n    towelMinha = Towel\n\n\n",
+            "content": "@@ -819,445 +819,39 @@\n %0A%0A  \n-# Testes%0Atowel = Towel(%22Azul%22, %22P%22)%0Atowel.show()  # Azul P 0%0Atowel.dry(5)%0Atowel.show()  # Azul P 5%0Aprint(towel.isDry()) # False%0Atowel.dry(5)%0Atowel.show()  # Azul P 10%0Atowel.dry(5) # msg: toalha encharcada%0Atowel.show()  # Azul P 10%0A%0Atowel.wringOut()%0Atowel.show()  # Azul P 0%0Atowel = Towel(%22Verde%22, %22G%22)%0Aprint(towel.isDry()) # True%0Atowel.dry(30)%0Atowel.show()  # Verde G 30%0Aprint(towel.isDry()) # False%0Atowel.dry(1)  # msg: toalha encharcada\n+  #testes%0A    towelMinha = Towel\n %0A%0A%0A\n",
             "lines": "37"
+        },
+        {
+            "label": "2025-09-30_16-42-31",
+            "content": "@@ -817,10 +817,13 @@\n %7D%22%0A%0A\n-#t\n+  # T\n este\n@@ -832,23 +832,23 @@\n towe\n-r\n+l\n  = Towe\n-r (%22red\n+l(%22Azul\n %22, %22\n@@ -859,49 +859,405 @@\n towe\n-r.show()%0Atower.dry(5)%0Atower.show()%0Aprint(towe\n+l.show()  # Azul P 0%0Atowel.dry(5)%0Atowel.show()  # Azul P 5%0Aprint(towel.isDry()) # False%0Atowel.dry(5)%0Atowel.show()  # Azul P 10%0Atowel.dry(5) # msg: toalha encharcada%0Atowel.show()  # Azul P 10%0A%0Atowel.wringOut()%0Atowel.show()  # Azul P 0%0Atowel = Towel(%22Verde%22, %22G%22)%0Aprint(towel.isDry()) # True%0Atowel.dry(30)%0Atowel.show()  # Verde G 30%0Aprint(towel.isDry()) # False%0Atowel.dry(1)  # msg: toalha encharcada%0A%0A%0A\n",
+            "lines": "54"
+        },
+        {
+            "label": "2025-09-30_22-42-02",
+            "content": "@@ -901,14 +901,4 @@\n towe\n-l.isDry())\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-30_22-43-43",
+            "content": "@@ -841,12 +841,11 @@\n r (%22\n-blue\n+red\n %22, %22\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-09-30_22-44-12",
+            "content": "class Towel:\n    def __init__(self, color :str, size :str):\n        self.color = color\n        self.size = size\n        self.Wetness :int = 0\n    \n    def getMaxWetness(self) -> int:\n        if self.size == \"P\":\n            return 10\n        if self.size == \"M\":\n            return 20\n        if self.size ==\"G\":\n            return 30\n        return 0\n    \n    def dry(self, amount :int) -> None:\n        self.Wetness += amount\n        if self.Wetness > self.getMaxWetness():\n            print(\"toalha enxarcada\")\n        self.Wetness = self.getMaxWetness()\n\n    def wringOut(self) -> None:\n        self.Wetness = 0\n\n    def isDry(self) -> bool:\n       return self.Wetness == 0\n    \n    def show(self) -> None :\n        print(self)\n\n    def __str__(self) -> str:\n        return f\"{self.color}{self.size}{self.Wetness}\"\n\n#testes\ntower = Tower (\"blue\", \"P\")\ntower.show()\ntower.dry(5)\ntower.show()\nprint(towel.isDry())",
+            "lines": "39"
         }
     ]
 }

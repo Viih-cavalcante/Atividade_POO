@@ -31,6 +31,10 @@ class Towel:
     def __str__(self) -> str:
         return f"{self.color}{self.size}{self.Wetness}"
 
-    #testes
-    towel = Towel ("azul","P")
-
+#testes
+doguito = Towel("azul", "M")
+print(doguito)
+doguito.dry(15)
+print(doguito)
+doguito.dry(10)
+print(doguito)

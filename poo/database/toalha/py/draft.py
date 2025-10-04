@@ -32,7 +32,10 @@ class Towel:
          return f"{self.color}{self.size}{self.wetness}"
     
          
-    #
-    
     #testando
+   
+         minha = Towel("vermelha", "G")
+         minha.show()
+
+
     
