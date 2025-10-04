@@ -16,9 +16,8 @@ class Towel:
     def enxugar(self, amount :int) -> None:
         self.wetness += amount
         if self.wetness > self.getMaxWetness():
-            print("toalha enxarcada")
+            print("toalha encharcada")
         
-
     def wringOut(self) -> None:
         self.wetness = 0
 
