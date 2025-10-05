@@ -71,3 +71,22 @@
 2025-10-05 02:16:27, MOVE, v:1, k:calculadora, mode:PICK
 2025-10-05 02:16:31, EXEC, v:1, k:calculadora, mode:FULL, rate:81, size:64
 2025-10-05 02:20:54, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-05 13:11:30, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-05 13:11:37, EXEC, v:1, k:calculadora, mode:FULL, rate:81
+2025-10-05 13:15:06, EXEC, v:1, k:calculadora, mode:FULL, rate:81
+2025-10-05 13:36:03, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-05 13:36:21, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-05 13:37:35, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-05 13:37:38, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-05 13:37:41, EXEC, v:1, k:calculadora, mode:FULL, rate:90, size:56
+2025-10-05 13:42:44, EXEC, v:1, k:calculadora, mode:FULL, rate:100, size:56
+2025-10-05 13:42:56, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-05 13:43:56, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-05 13:44:00, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-05 13:46:11, SELF, v:1, k:calculadora, rate:100, human:colega, iagen:nao_tava_achando_meu_erro_ai_o_gpt_destacou, alone:7, study:130
+2025-10-05 13:49:17, MOVE, v:1, k:enxugar, mode:PICK
+2025-10-05 13:49:19, MOVE, v:1, k:enxugar, mode:BACK
+2025-10-05 13:50:34, SELF, v:1, k:enxugar, rate:100, human:sim_precisei_de_ajuda_na_main_demorei_muito_pq_quis_praticar_bastante_a_escrita_para_aprender_a_estrutura, guide:sim_assisti_a_video_aula_ensinando_e_ainda_consegui_errar, alone:9, study:420
+2025-10-05 13:54:27, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-05 13:54:31, EXEC, v:1, k:calculadora, mode:FULL, rate:100
+2025-10-05 13:54:34, MOVE, v:1, k:calculadora, mode:BACK
