@@ -14,10 +14,14 @@ expanded:
 - bloco_b-primeiras-classes
 tasks:
   animal: '{rate:100, human:minha_irma_faz_cc_me_ajudou_fazendo_em_outra_linguagem,
+
     iagen:pedia_pro_gpt_mostrar_oq_tava_errado_quando_nao_dava_certo, alone:8, study:160}'
   carro: '{rate:100, human:irma, iagen:tive_dificuldades_com_o_drive_e_, alone:7,
+
     study:130}'
+  calculadora: '{rate:81}'
   enxugar: '{rate:100, human:sim_minhas_colegas_me_ajudaram_a_resolver_um_problema_q_demorei_duas_horas_procurando,
+
     guide:sim_assisti_a_video_aula_ensinando_e_ainda_consegui_errar, alone:6, study:420}'
 flags:
   quests: 0

@@ -22,6 +22,7 @@ class Calculadora:
             return
         self.display = a + b
         self.battery -= 1
+    
 
     def div(self, a: float, b: float) -> None:
         if self.battery <= 0:
