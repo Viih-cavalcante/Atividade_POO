@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-04_18-01-07",
+            "content": "@@ -8,40 +8,4 @@\n arro\n-: %0A def __init__(self pass, gas, km)\n",
+            "lines": "1"
+        },
+        {
+            "label": "2025-10-04_18-09-10",
+            "content": "class Carro: \n def __init__(self pass, gas, km)",
+            "lines": "2"
+        }
+    ]
+}
