@@ -1,0 +1,11 @@
+2025-10-05 00:00:12, EXEC, v:1, k:carro, mode:FULL, rate:50, size:60
+2025-10-05 00:15:38, EXEC, v:1, k:carro, mode:FULL, rate:50, size:63
+2025-10-05 00:16:34, EXEC, v:1, k:carro, mode:FREE
+2025-10-05 00:17:22, MOVE, v:1, k:carro, mode:PICK
+2025-10-05 00:17:26, EXEC, v:1, k:carro, mode:FULL, rate:50
+2025-10-05 00:17:41, EXEC, v:1, k:carro, mode:FREE
+2025-10-05 00:24:33, EXEC, v:1, k:carro, mode:FULL, rate:100, size:61
+2025-10-05 00:24:43, MOVE, v:1, k:carro, mode:BACK
+2025-10-05 00:31:46, MOVE, v:1, k:carro, mode:PICK
+2025-10-05 00:31:48, MOVE, v:1, k:carro, mode:BACK
+2025-10-05 00:35:18, SELF, v:1, k:carro, rate:100, human:irma, iagen:tive_dificuldades_com_o_drive_e_, alone:7, study:130
