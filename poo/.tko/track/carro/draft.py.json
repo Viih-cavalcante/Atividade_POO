@@ -7,8 +7,58 @@
         },
         {
             "label": "2025-10-04_18-09-10",
-            "content": "class Carro: \n def __init__(self pass, gas, km)",
+            "content": "@@ -29,96 +29,19 @@\n self\n-)%0A  self.pass = 0%0A  self.km = 0%0A  self.passMax = 2%0A  self.gas = 0%0A  self.gasMax = 100%0A%0A  def\n+ pass, gas, km)\n",
             "lines": "2"
+        },
+        {
+            "label": "2025-10-04_21-08-46",
+            "content": "@@ -115,92 +115,10 @@\n 100%0A\n+%0A\n   def\n- __str__(self) -%3E str:%0A    return f%22pass:%7Bself.pass%7D, gas:%7Bself.gas%7D, km:%7Bself.km%7D%22\n",
+            "lines": "9"
+        },
+        {
+            "label": "2025-10-04_21-19-01",
+            "content": "@@ -7,19 +7,16 @@\n Carro: %0A\n-   \n  def __i\n@@ -26,24 +26,17 @@\n __(self)\n-:%0A      \n+%0A\n   self.p\n@@ -42,25 +42,27 @@\n pass\n-engers\n  = 0%0A  \n-    \n+self.km = 0%0A\n   se\n@@ -76,22 +76,16 @@\n Max = 2%0A\n-      \n   self.g\n@@ -93,35 +93,30 @@\n s = \n-10\n 0%0A  \n-      self.km = 0%0A%0A  \n+self.gasMax = 100%0A\n   de\n@@ -139,20 +139,16 @@\n -%3E str:%0A\n-    \n     retu\n@@ -171,17 +171,15 @@\n pass\n-engers%7D, \n+%7D, gas:\n %7Bsel\n@@ -186,16 +186,19 @@\n f.gas%7D, \n+km:\n %7Bself.km\n@@ -203,241 +203,4 @@\n km%7D%22\n-%0A    %0A    def main ():%0A        car = Carro%0A        while True:%0A            line : str = input()%0A            print(%22$%22 + line)%0A            if line == %22show%22:%0A                print(car)%0A            elif line == %22end%22:%0A                break\n",
+            "lines": "9"
+        },
+        {
+            "label": "2025-10-04_21-31-34",
+            "content": "@@ -227,16 +227,20 @@\n %7D%22%0A    %0A\n+    \n def main\n@@ -462,12 +462,4 @@\n reak\n-%0Amain ()\n",
+            "lines": "19"
+        },
+        {
+            "label": "2025-10-04_21-35-49",
+            "content": "@@ -251,18 +251,16 @@\n      car\n-ro\n  = Carro\n@@ -399,18 +399,16 @@\n rint(car\n-ro\n )%0A      \n",
+            "lines": "20"
+        },
+        {
+            "label": "2025-10-04_21-37-15",
+            "content": "@@ -261,18 +261,16 @@\n  = Carro\n-()\n %0A       \n",
+            "lines": "20"
+        },
+        {
+            "label": "2025-10-04_21-38-57",
+            "content": "@@ -203,12 +203,8 @@\n s%7D, \n-gas:\n %7Bsel\n@@ -215,11 +215,8 @@\n s%7D, \n-km:\n %7Bsel\n",
+            "lines": "20"
+        },
+        {
+            "label": "2025-10-04_21-41-05",
+            "content": "@@ -99,24 +99,26 @@\n  self.gas = \n+10\n 0%0A        se\n",
+            "lines": "20"
+        },
+        {
+            "label": "2025-10-04_21-41-21",
+            "content": "@@ -178,17 +178,16 @@\n  f%22pass:\n- \n %7Bself.pa\n",
+            "lines": "20"
+        },
+        {
+            "label": "2025-10-04_21-41-44",
+            "content": "@@ -202,17 +202,16 @@\n s%7D, gas:\n- \n %7Bself.ga\n@@ -217,17 +217,16 @@\n as%7D, km:\n- \n %7Bself.km\n",
+            "lines": "20"
+        },
+        {
+            "label": "2025-10-04_21-42-08",
+            "content": "class Carro: \n    def __init__(self):\n        self.passengers = 0\n        self.passMax = 2\n        self.gas = 0\n        self.km = 0\n\n    def __str__(self) -> str:\n        return f\"pass: {self.passengers}, gas: {self.gas}, km: {self.km}\"\n    \ndef main ():\n        carro = Carro()\n        while True:\n            line : str = input()\n            print(\"$\" + line)\n            if line == \"show\":\n                print(carro)\n            elif line == \"end\":\n                break\nmain ()",
+            "lines": "20"
         }
     ]
 }
